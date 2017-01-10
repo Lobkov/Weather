@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1009211E1A90D70030B927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1009201E1A90D70030B927 /* main.m */; };
+		0A1009241E1A90D70030B927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1009231E1A90D70030B927 /* AppDelegate.m */; };
+		0A1009271E1A90D70030B927 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1009261E1A90D70030B927 /* ViewController.m */; };
+		0A10092A1E1A90D70030B927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1009281E1A90D70030B927 /* Main.storyboard */; };
+		0A10092C1E1A90D70030B927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A10092B1E1A90D70030B927 /* Assets.xcassets */; };
+		0A10092F1E1A90D70030B927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A10092D1E1A90D70030B927 /* LaunchScreen.storyboard */; };
+		0A24C38B1E1FDA7200065AC8 /* weather_icon in Resources */ = {isa = PBXBuildFile; fileRef = 0A24C38A1E1FDA7200065AC8 /* weather_icon */; };
+		0A24C38F1E1FEF0100065AC8 /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A24C38D1E1FEF0100065AC8 /* p.png */; };
+		0A24C3901E1FEF0100065AC8 /* w.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A24C38E1E1FEF0100065AC8 /* w.png */; };
+		0A26665C1E1CF8BE007881A6 /* MWASignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A26665B1E1CF8BE007881A6 /* MWASignUpViewController.m */; };
+		0AF0659B1E1B77210028C970 /* MWAViewControllerAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF0659A1E1B77210028C970 /* MWAViewControllerAdd.m */; };
+		0AF065A11E1B8AFD0028C970 /* MWAWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF065A01E1B8AFD0028C970 /* MWAWeather.m */; };
+		0AF065B01E1C155E0028C970 /* MWATableViewControllerShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF065AF1E1C155E0028C970 /* MWATableViewControllerShow.m */; };
+		53C4E016FE6F577B16A465FB /* libPods-Waether2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF7123BD13B6E5D31E4504B /* libPods-Waether2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A10091C1E1A90D70030B927 /* Waether2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waether2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1009201E1A90D70030B927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A1009221E1A90D70030B927 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A1009231E1A90D70030B927 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A1009251E1A90D70030B927 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A1009261E1A90D70030B927 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A1009291E1A90D70030B927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A10092B1E1A90D70030B927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A10092E1E1A90D70030B927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A1009301E1A90D70030B927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A24C38A1E1FDA7200065AC8 /* weather_icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = weather_icon; path = ../../weather_icon; sourceTree = "<group>"; };
+		0A24C38D1E1FEF0100065AC8 /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
+		0A24C38E1E1FEF0100065AC8 /* w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w.png; sourceTree = "<group>"; };
+		0A26665A1E1CF8BE007881A6 /* MWASignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWASignUpViewController.h; sourceTree = "<group>"; };
+		0A26665B1E1CF8BE007881A6 /* MWASignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWASignUpViewController.m; sourceTree = "<group>"; };
+		0AF065991E1B77210028C970 /* MWAViewControllerAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWAViewControllerAdd.h; sourceTree = "<group>"; };
+		0AF0659A1E1B77210028C970 /* MWAViewControllerAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWAViewControllerAdd.m; sourceTree = "<group>"; };
+		0AF0659F1E1B8AFD0028C970 /* MWAWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWAWeather.h; sourceTree = "<group>"; };
+		0AF065A01E1B8AFD0028C970 /* MWAWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWAWeather.m; sourceTree = "<group>"; };
+		0AF065AE1E1C155E0028C970 /* MWATableViewControllerShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWATableViewControllerShow.h; sourceTree = "<group>"; };
+		0AF065AF1E1C155E0028C970 /* MWATableViewControllerShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWATableViewControllerShow.m; sourceTree = "<group>"; };
+		0EF7123BD13B6E5D31E4504B /* libPods-Waether2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Waether2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26363723E5983CF885F3FEFB /* Pods-Waether2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waether2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Waether2/Pods-Waether2.release.xcconfig"; sourceTree = "<group>"; };
+		8BC78DF80AF31195F891B1BE /* Pods-Waether2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waether2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Waether2/Pods-Waether2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1009191E1A90D70030B927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C4E016FE6F577B16A465FB /* libPods-Waether2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1009131E1A90D70030B927 = {
+			isa = PBXGroup;
+			children = (
+				0A10091E1E1A90D70030B927 /* Waether2 */,
+				0A10091D1E1A90D70030B927 /* Products */,
+				3F88CB2E6FA7A4E71890F7AF /* Pods */,
+				B29B42BE00060F2603FC4488 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A10091D1E1A90D70030B927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A10091C1E1A90D70030B927 /* Waether2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A10091E1E1A90D70030B927 /* Waether2 */ = {
+			isa = PBXGroup;
+			children = (
+				0A24C38C1E1FEEC800065AC8 /* IMG */,
+				0AF0659F1E1B8AFD0028C970 /* MWAWeather.h */,
+				0AF065A01E1B8AFD0028C970 /* MWAWeather.m */,
+				0A1009221E1A90D70030B927 /* AppDelegate.h */,
+				0A1009231E1A90D70030B927 /* AppDelegate.m */,
+				0A1009251E1A90D70030B927 /* ViewController.h */,
+				0A1009261E1A90D70030B927 /* ViewController.m */,
+				0AF065991E1B77210028C970 /* MWAViewControllerAdd.h */,
+				0AF0659A1E1B77210028C970 /* MWAViewControllerAdd.m */,
+				0AF065AE1E1C155E0028C970 /* MWATableViewControllerShow.h */,
+				0AF065AF1E1C155E0028C970 /* MWATableViewControllerShow.m */,
+				0A26665A1E1CF8BE007881A6 /* MWASignUpViewController.h */,
+				0A26665B1E1CF8BE007881A6 /* MWASignUpViewController.m */,
+				0A1009281E1A90D70030B927 /* Main.storyboard */,
+				0A10092B1E1A90D70030B927 /* Assets.xcassets */,
+				0A10092D1E1A90D70030B927 /* LaunchScreen.storyboard */,
+				0A1009301E1A90D70030B927 /* Info.plist */,
+				0A10091F1E1A90D70030B927 /* Supporting Files */,
+			);
+			path = Waether2;
+			sourceTree = "<group>";
+		};
+		0A10091F1E1A90D70030B927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1009201E1A90D70030B927 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A24C38C1E1FEEC800065AC8 /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+				0A24C38D1E1FEF0100065AC8 /* p.png */,
+				0A24C38E1E1FEF0100065AC8 /* w.png */,
+				0A24C38A1E1FDA7200065AC8 /* weather_icon */,
+			);
+			name = IMG;
+			sourceTree = "<group>";
+		};
+		3F88CB2E6FA7A4E71890F7AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BC78DF80AF31195F891B1BE /* Pods-Waether2.debug.xcconfig */,
+				26363723E5983CF885F3FEFB /* Pods-Waether2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B29B42BE00060F2603FC4488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EF7123BD13B6E5D31E4504B /* libPods-Waether2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A10091B1E1A90D70030B927 /* Waether2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1009331E1A90D70030B927 /* Build configuration list for PBXNativeTarget "Waether2" */;
+			buildPhases = (
+				5A85BBC6C4C92F64C4E0571C /* [CP] Check Pods Manifest.lock */,
+				0A1009181E1A90D70030B927 /* Sources */,
+				0A1009191E1A90D70030B927 /* Frameworks */,
+				0A10091A1E1A90D70030B927 /* Resources */,
+				855F63077F0D567EBDA852D1 /* [CP] Embed Pods Frameworks */,
+				AD75EFD73D3AD12C041EA216 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waether2;
+			productName = Waether2;
+			productReference = 0A10091C1E1A90D70030B927 /* Waether2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A1009141E1A90D70030B927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MWA;
+				KnownAssetTags = (
+					1001,
+				);
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Dmitry;
+				TargetAttributes = {
+					0A10091B1E1A90D70030B927 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4LSCG5BX2S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A1009171E1A90D70030B927 /* Build configuration list for PBXProject "Waether2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A1009131E1A90D70030B927;
+			productRefGroup = 0A10091D1E1A90D70030B927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A10091B1E1A90D70030B927 /* Waether2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A10091A1E1A90D70030B927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A24C3901E1FEF0100065AC8 /* w.png in Resources */,
+				0A24C38B1E1FDA7200065AC8 /* weather_icon in Resources */,
+				0A10092F1E1A90D70030B927 /* LaunchScreen.storyboard in Resources */,
+				0A10092C1E1A90D70030B927 /* Assets.xcassets in Resources */,
+				0A10092A1E1A90D70030B927 /* Main.storyboard in Resources */,
+				0A24C38F1E1FEF0100065AC8 /* p.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A85BBC6C4C92F64C4E0571C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		855F63077F0D567EBDA852D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Waether2/Pods-Waether2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD75EFD73D3AD12C041EA216 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Waether2/Pods-Waether2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1009181E1A90D70030B927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1009271E1A90D70030B927 /* ViewController.m in Sources */,
+				0A1009241E1A90D70030B927 /* AppDelegate.m in Sources */,
+				0AF0659B1E1B77210028C970 /* MWAViewControllerAdd.m in Sources */,
+				0A26665C1E1CF8BE007881A6 /* MWASignUpViewController.m in Sources */,
+				0AF065B01E1C155E0028C970 /* MWATableViewControllerShow.m in Sources */,
+				0A1009211E1A90D70030B927 /* main.m in Sources */,
+				0AF065A11E1B8AFD0028C970 /* MWAWeather.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A1009281E1A90D70030B927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A1009291E1A90D70030B927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A10092D1E1A90D70030B927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A10092E1E1A90D70030B927 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A1009311E1A90D70030B927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A1009321E1A90D70030B927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A1009341E1A90D70030B927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC78DF80AF31195F891B1BE /* Pods-Waether2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4LSCG5BX2S;
+				INFOPLIST_FILE = Waether2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Waether2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A1009351E1A90D70030B927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26363723E5983CF885F3FEFB /* Pods-Waether2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4LSCG5BX2S;
+				INFOPLIST_FILE = Waether2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Waether2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1009171E1A90D70030B927 /* Build configuration list for PBXProject "Waether2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1009311E1A90D70030B927 /* Debug */,
+				0A1009321E1A90D70030B927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A1009331E1A90D70030B927 /* Build configuration list for PBXNativeTarget "Waether2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1009341E1A90D70030B927 /* Debug */,
+				0A1009351E1A90D70030B927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A1009141E1A90D70030B927 /* Project object */;
+}
